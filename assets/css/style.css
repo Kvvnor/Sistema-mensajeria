@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+aside {
+    width: 300px;
+    min-height: 100vh;
+    border: 1px solid;
+}
+
+aside .profile-maría {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px;
+    border: 1px solid;
+}
+
+aside .info-maría {
+    display: flex;
+    align-items: center;
+    gap: 15px
+    
+}
+
+aside .profile-maría img {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    border-radius: 100px;
+}
+
+aside .userdata {
+    display: flex;
+    flex-direction: column;
+}
