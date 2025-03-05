@@ -39,3 +39,26 @@ aside .userdata {
     display: flex;
     flex-direction: column;
 }
+
+aside .button-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    border: 1px solid;
+}
+
+aside .button-chat .btn-chat {
+    background-color: #A491D2;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+}
+
+aside .button-chat .btn-chat:hover {
+    background-color: #D4DCFF;
+}
+
