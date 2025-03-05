@@ -13,12 +13,14 @@ aside {
     border: 1px solid;
 }
 
+/* Profile María */
+
 aside .profile-maría {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 12px 30px;
-    border: 1px solid;
+    border: 1px gray;
 }
 
 aside .info-maría {
@@ -45,7 +47,7 @@ aside .button-chat {
     justify-content: center;
     align-items: center;
     padding: 2.5rem;
-    border: 1px solid;
+    border: 1px solid gray;
 }
 
 aside .button-chat .btn-chat {
@@ -62,3 +64,19 @@ aside .button-chat .btn-chat:hover {
     background-color: #D4DCFF;
 }
 
+/* Profile Juanita */
+
+.contacts .item-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px;
+    border: 1px solid;
+}
+
+.contacts .item-contacts img {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    border-radius: 100px;
+}
