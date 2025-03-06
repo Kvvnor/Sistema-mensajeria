@@ -5,6 +5,7 @@
 
 body {
     display: flex;
+    font-family: "Roboto";
 }
 
 aside {
@@ -79,4 +80,24 @@ aside .button-chat .btn-chat:hover {
     align-items: center;
     width: 60px;
     border-radius: 100px;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.general img {
+    width: 250px;
+    margin-bottom: 2rem;
+}
+
+main .description {
+    max-width: 450px;
+    text-align: center;
+    
 }
